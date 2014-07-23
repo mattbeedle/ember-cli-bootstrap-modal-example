@@ -23,4 +23,6 @@ app.import('vendor/bootstrap/dist/css/bootstrap.css');
 app.import('vendor/ember-easyform/index.js');
 app.import('vendor/ember-validations/index.js');
 
+app.import('vendor/ember-localstorage-adapter/localstorage_adapter.js');
+
 module.exports = app.toTree();
