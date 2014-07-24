@@ -8,8 +8,8 @@ ApplicationRoute = Ember.Route.extend
         outlet: 'modal'
 
     closeModal: ->
-      @render 'empty',
-        into: 'application'
+      @disconnectOutlet
         outlet: 'modal'
+        parentView: 'application'
 
 `export default ApplicationRoute`
