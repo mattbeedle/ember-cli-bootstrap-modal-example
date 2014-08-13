@@ -1,6 +1,12 @@
 # Ember-cli-bootstrap-modal-example
 
-This README outlines the details of collaborating on this Ember application.
+A basic example of how to integrate bootstrap modals into an Ember CLI project.
+
+Blog post at:
+[http://blog.mattbeedle.name/posts/ember-cli-bootstrap-modals/](http://blog.mattbeedle.name/posts/ember-cli-bootstrap-modals/)
+
+Live demo available at:
+[http://ember-cli-bootstrap-modal.herokuapp.com/](http://ember-cli-bootstrap-modal.herokuapp.com/)
 
 ## Installation
 
