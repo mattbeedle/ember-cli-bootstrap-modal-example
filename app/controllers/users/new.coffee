@@ -12,6 +12,6 @@ UsersNewController = ModalController.extend
 
   actions:
     submit: ->
-      @content.save().then(@didSave.bind(@), @didNotSave.bind(@))
+      @get('content').save().then(@didSave.bind(@), @didNotSave.bind(@))
 
 `export default UsersNewController`

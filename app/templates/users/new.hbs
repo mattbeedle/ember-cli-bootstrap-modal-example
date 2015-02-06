@@ -2,14 +2,14 @@
   {{#form-for this wrapper="bootstrap-horizontal"}}
   <div class="modal-content">
     <div class="modal-header">
-      <button class="close" type="button" {{action cancel on="click"}}>x</button>
+      <button class="close" type="button" {{action "cancel" on="click"}}>x</button>
       <h4 class="modal-title">Create a new user (using LocalStorage)</h4>
     </div>
     <div class="modal-body">
       {{input name}}
     </div>
     <div class="modal-footer">
-      <button class="btn btn-default" {{action cancel on="click"}}>Close</button>
+      <button class="btn btn-default" {{action "cancel" on="click"}}>Close</button>
       {{submit classNames="btn btn-success"}}
     </div>
   </div>

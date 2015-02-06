@@ -1,14 +1,17 @@
 `import Ember from 'ember'`
 `import Resolver from 'ember/resolver'`
 `import loadInitializers from 'ember/load-initializers'`
+`import config from './config/environment'`
 
 Ember.MODEL_FACTORY_INJECTIONS = true
 
 App = Ember.Application.extend
-  modulePrefix: 'ember-cli-bootstrap-modal-example' # TODO: loaded via config
+  modulePrefix: config.modulePrefix,
+  podModulePrefix: config.podModulePrefix,
   Resolver: Resolver
 
-loadInitializers(App, 'ember-cli-bootstrap-modal-example')
+loadInitializers(App, config.modulePrefix)
+
 
 # This is a little ember easyform hack to make errors display when the form is
 # submitted

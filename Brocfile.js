@@ -17,12 +17,12 @@ var app = new EmberApp();
 // please specify an object with the list of modules as keys
 // along with the exports of each module as its value.
 
-app.import('vendor/bootstrap/dist/js/bootstrap.js');
-app.import('vendor/bootstrap/dist/css/bootstrap.css');
+app.import('bower_components/bootstrap/dist/js/bootstrap.js');
+app.import('bower_components/bootstrap/dist/css/bootstrap.css');
 
-app.import('vendor/ember-easyform/index.js');
-app.import('vendor/ember-validations/index.js');
+app.import('bower_components/ember-easyform/index.js');
+app.import('bower_components/ember-validations/index.js');
 
-app.import('vendor/ember-localstorage-adapter/localstorage_adapter.js');
+app.import('bower_components/ember-localstorage-adapter/localstorage_adapter.js');
 
 module.exports = app.toTree();
